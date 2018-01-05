@@ -4,30 +4,14 @@
 
 //堆栈,简单很多,入栈,出栈,获取最上面的元素,判断是否为空
 
-/**
- * Interface Stack
- */
 interface Stack {
 
-    /**
-     * @param string $item
-     * @return mixed
-     */
     public function push(string $item);
 
-    /**
-     * @return mixed
-     */
     public function pop();
 
-    /**
-     * @return mixed
-     */
     public function top();
 
-    /**
-     * @return mixed
-     */
     public function isEmpty();
 }
 
