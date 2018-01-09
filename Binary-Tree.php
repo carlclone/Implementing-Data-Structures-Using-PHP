@@ -12,7 +12,7 @@ class BinaryNode {
         $this->right = NULL;
     }
 
-    //二叉树必须同时添加左右子节点
+
     public function addChildren(BinaryNode $left, BinaryNode $right) {
         $this->left = $left;
         $this->right = $right;
